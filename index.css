@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    /* overflow-x: hidden; */
+}
+section {
+    width: 100%;
+    overflow-x: hidden;
+}
+section > div > a {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+}
+.first-all-container{
+    width: 20%;
+    background-image: linear-gradient(#5aff15,#00b712);
+    height: 150px;
+}
+
+.all-container:nth-child(2n+0) .first-all-container{
+    background-image: linear-gradient(orange,#660029);
+}
+
+.all-container:nth-child(3n+0) .first-all-container{
+    background-image: linear-gradient(#660029,olive);
+}
+
+.first-all-container p{ 
+    font-size: 80px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+.second-all-container {
+    width: 80%;
+    background-color: white;
+    border: 1px solid #00cc00;
+    transition: 0.25s;
+    transition-delay: 0.075s;
+    background-image: none;
+    height: 200px;
+}
+.second-all-container p{ 
+    font-size: 32px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    align-items: center;
+    color: #00cc00;
+    text-shadow: none;
+    text-transform: capitalize;
+}
+i {
+    margin-left: auto;
+    padding: 30px 60px;
+    color: #00cc00;
+}
+.all-container{
+    margin-top: 20px !important;
+    margin: 20px;
+    background-image: none;
+    height: 200px;
+}
+.all-container:hover .second-all-container 
+{
+    
+    background-color: #00cc00;
+    border: 1px solid white;
+    color: white;
+}
+.all-container:hover .second-all-container p,
+.all-container:hover .second-all-container p i
+
+{
+    
+    color: white;
+}
+div {
+    margin-top: 0;
+    /* height: 200px !important; */
+}
+
+/* #a1, #a2, #a3 {
+
+    height: 200px; */
+    /* background-image: none; */
+/* } */
